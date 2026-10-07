@@ -37,18 +37,3 @@ copy .env.example .env       # then put your API key in .env
 python main.py
 ```
 Put your own resumes (PDF/DOCX) in the `resumes/` folder and edit `sample_jd.txt` for a different job.
-
-## Example output
-```
-===== TOP 2 CANDIDATES =====
-
-Aarav Sharma  -  Score: 88/100
-  File     : resume1.pdf
-  Verdict  : Strong backend profile that meets almost every requirement.
-  Matching : Python, REST APIs, SQL, Git
-  Missing  : AWS
-
-===== BOTTOM 2 CANDIDATES =====
-...
-```
-(Your scores and wording will differ - the LLM generates them.)
