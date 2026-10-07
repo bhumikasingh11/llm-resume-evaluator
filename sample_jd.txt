@@ -1,0 +1,26 @@
+Backend Software Development Engineer (SDE)
+
+We are looking for a Backend SDE to join our product team.
+
+Responsibilities:
+- Design and build REST APIs using Python
+- Write clean, tested and maintainable code
+- Work with SQL databases and optimise queries
+- Deploy and monitor services on the cloud
+- Collaborate with frontend and product teams
+
+Required Skills:
+- Python
+- REST APIs
+- SQL (PostgreSQL or MySQL)
+- Git
+- Data structures and algorithms
+
+Preferred Skills:
+- Docker
+- AWS
+- FastAPI or Django
+
+Experience: Minimum 2 years of backend development experience.
+
+Education: Bachelor's degree in Computer Science or a related field.
