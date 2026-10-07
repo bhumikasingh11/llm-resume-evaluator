@@ -5,7 +5,7 @@ Runs the whole flow:
   resumes/ folder -> read -> parse -> match with JD
   sort by score -> print top 2 and bottom 2
 """
-
+import json
 import os
 import time
 
@@ -53,6 +53,8 @@ def main():
             resume_text = read_resume(file_path)
 
             parsed_resume = parse_resume(resume_text)
+            extracted = parsed_resume.model_dump(include={"skills", "projects"})
+            print(json.dumps(extracted, indent=2))
             time.sleep(SLEEP_SECONDS)
 
             match = final_score(job, parsed_resume)
